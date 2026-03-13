@@ -242,3 +242,23 @@ Questions, suggestions, or access requests:
 **DIRECTIVE: OPERATIONAL | CLASSIFICATION: PROPRIETARY**
 
 *"Intelligence is not data. It is not information. It is knowledge with judgment."*
+
+---
+
+## Constellation Integration
+
+This repository is node **QGIA-CORPUS** (`s.tag::qgia.corpus`) in the Aurora Constellation.
+
+### Auto-Indexing
+When content is pushed to `main`, a GitHub Actions workflow automatically:
+1. Scans all knowledge documents
+2. Generates `.aurora/knowledge-index.json`
+3. Publishes a `qgia.knowledge.updated` event to CONSTELLATION-PRIME
+
+### Manifest
+The node manifest is at `.aurora/constellation.json`.
+
+### Related Nodes
+- **CONSTELLATION-PRIME** — [aurora-cloudbank-symbolic](https://github.com/AUo959/aurora-cloudbank-symbolic) (hub)
+- **QGIA-SPINE** — [qgia-knowledge-spine](https://github.com/AUo959/qgia-knowledge-spine) (methodology backbone)
+- **AURORA-RUNTIME** — [AuroraOS](https://github.com/AUo959/AuroraOS) (agent runtime)
