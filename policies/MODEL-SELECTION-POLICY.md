@@ -77,6 +77,8 @@ Models currently authorized for QGIA and Aurora analytical work:
 
 Model selection for intelligence-grade analytical work is a **functional question**, not a brand preference. The criterion is simple: does the model produce outputs that are more useful than no output at all? A model that systematically misrepresents evidence weight through false balance fails that criterion. It does not matter how technically impressive the underlying architecture is. A tool optimized to never be wrong by never committing is optimized to be useless for any task where being right matters.
 
+The proof is in the question itself: **the only reason anyone invokes an analytical model is because the answer matters.** If being right didn't matter, there would be no reason to ask. A model that responds to that need by constructing false symmetry around asymmetric evidence isn't being careful — it is betraying the only reason it was consulted.
+
 ---
 
 *Issued under QGIA Operational Directive authority. Questions regarding this policy should be directed to the Global Monitoring Division.*
