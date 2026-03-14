@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_repo": "qgia-knowledge-library",
-  "generated_at": "2026-03-13T15:34:20.704443+00:00",
+  "generated_at": "2026-03-14T00:36:21.410180+00:00",
   "documents": [
     {
       "id": "qgia-library:01-01-core-ir-theories",
@@ -10,7 +10,7 @@
       "path": "01-theoretical-foundations/01-01-core-ir-theories.md",
       "checksum": "b65422adc2bb54d6",
       "word_count": 1903,
-      "last_modified": "2026-03-13T15:34:19.909446+00:00",
+      "last_modified": "2026-03-14T00:36:20.725580+00:00",
       "tags": [
         "Purpose",
         "1. REALISM PARADIGM",
@@ -34,7 +34,7 @@
       "path": "01-theoretical-foundations/01-02-strategic-bargaining-theory.md",
       "checksum": "fd77a01d72038476",
       "word_count": 539,
-      "last_modified": "2026-03-13T15:34:19.909698+00:00",
+      "last_modified": "2026-03-14T00:36:20.725838+00:00",
       "tags": [
         "Overview",
         "Core Concepts",
@@ -50,7 +50,7 @@
       "path": "01-theoretical-foundations/01-03-deterrence-compellence-theory.md",
       "checksum": "3dcee54a69510a6a",
       "word_count": 1329,
-      "last_modified": "2026-03-13T15:34:19.909698+00:00",
+      "last_modified": "2026-03-14T00:36:20.725838+00:00",
       "tags": [
         "Overview",
         "Core Concepts",
@@ -68,7 +68,7 @@
       "path": "01-theoretical-foundations/01-04-bargaining-focal-points.md",
       "checksum": "ccf9e65c1ef3d05d",
       "word_count": 2068,
-      "last_modified": "2026-03-13T15:34:19.909698+00:00",
+      "last_modified": "2026-03-14T00:36:20.725838+00:00",
       "tags": [
         "Executive Summary",
         "1. Foundational Bargaining Models",
@@ -89,7 +89,7 @@
       "path": "01-theoretical-foundations/01-05-deterrence-compellence-coercion.md",
       "checksum": "2b1bc29cc3af542e",
       "word_count": 2660,
-      "last_modified": "2026-03-13T15:34:19.909698+00:00",
+      "last_modified": "2026-03-14T00:36:20.725838+00:00",
       "tags": [
         "Executive Summary",
         "1. Foundational Concepts",
@@ -111,7 +111,7 @@
       "path": "02-analytical-frameworks/02-01-intelligence-cycle-methods.md",
       "checksum": "5b4e4c9db039eb1f",
       "word_count": 1837,
-      "last_modified": "2026-03-13T15:34:19.909698+00:00",
+      "last_modified": "2026-03-14T00:36:20.725838+00:00",
       "tags": [
         "Purpose",
         "1. INTELLIGENCE CYCLE OVERVIEW",
@@ -137,7 +137,7 @@
       "path": "02-analytical-frameworks/02-02-structured-analytic-techniques.md",
       "checksum": "12ea09ee84b98edd",
       "word_count": 1768,
-      "last_modified": "2026-03-13T15:34:19.910457+00:00",
+      "last_modified": "2026-03-14T00:36:20.726577+00:00",
       "tags": [
         "Purpose",
         "1. DIAGNOSTIC TECHNIQUES",
@@ -163,7 +163,7 @@
       "path": "02-analytical-frameworks/02-03-forecasting-methodologies.md",
       "checksum": "35e144335b23c184",
       "word_count": 3586,
-      "last_modified": "2026-03-13T15:34:19.910457+00:00",
+      "last_modified": "2026-03-14T00:36:20.726753+00:00",
       "tags": [
         "Executive Overview",
         "I. Superforecasting Framework",
@@ -185,7 +185,7 @@
       "path": "02-analytical-frameworks/02-04-operational-doctrine-adversarial-analysis.md",
       "checksum": "9d680779ce43dc97",
       "word_count": 5470,
-      "last_modified": "2026-03-13T15:34:19.910457+00:00",
+      "last_modified": "2026-03-14T00:36:20.726753+00:00",
       "tags": [
         "Preamble",
         "PART I: FOUNDATIONAL AXIOMS \u2014 THE FRACTAL LAWS OF POWER",
@@ -204,13 +204,41 @@
       "summary": "**Document ID:** 02-04"
     },
     {
+      "id": "qgia-library:02-SAT-handbook",
+      "title": "Structured Analytic Techniques Handbook",
+      "domain": "analytical-frameworks",
+      "path": "02-analytical-frameworks/02-SAT-handbook.md",
+      "checksum": "ac3af8f8ffb67629",
+      "word_count": 10405,
+      "last_modified": "2026-03-14T00:36:20.726753+00:00",
+      "tags": [
+        "Preface",
+        "Table of Contents",
+        "1. Analysis of Competing Hypotheses (ACH)",
+        "2. Diagnostic Reasoning Protocols",
+        "3. Key Assumptions Check (KAC)",
+        "4. Deception Detection Frameworks",
+        "5. Quality of Information Assessment (QIA)",
+        "6. Structured Brainstorming Techniques",
+        "7. Cross-Impact Matrix Analysis",
+        "8. Indicators and Warning Generation",
+        "9. Devil's Advocacy and Team A/Team B",
+        "10. Red Team Analysis",
+        "11. Pre-Mortem Analysis",
+        "12. Outside-In Analysis",
+        "13. SAT Selection Matrix and Workflow Integration",
+        "14. References"
+      ],
+      "summary": "**Document ID**: QGIA-KL-AF-02-SAT-HANDBOOK"
+    },
+    {
       "id": "qgia-library:03-01-china-strategic-profile",
       "title": "China Strategic Profile",
       "domain": "regional-expertise",
       "path": "03-regional-expertise/03-01-china-strategic-profile.md",
       "checksum": "cc43464856d2f655",
       "word_count": 1551,
-      "last_modified": "2026-03-13T15:34:19.910457+00:00",
+      "last_modified": "2026-03-14T00:36:20.726753+00:00",
       "tags": [
         "Purpose",
         "1. STRATEGIC OVERVIEW",
@@ -229,13 +257,44 @@
       "summary": "**Document ID**: QGIA-KL-RE-03-01"
     },
     {
+      "id": "qgia-library:03-regional-threat-templates",
+      "title": "Regional Threat Assessment Templates",
+      "domain": "regional-expertise",
+      "path": "03-regional-expertise/03-regional-threat-templates.md",
+      "checksum": "e61fc98d028ab288",
+      "word_count": 10390,
+      "last_modified": "2026-03-14T00:36:20.727829+00:00",
+      "tags": [
+        "Purpose",
+        "Document Structure",
+        "Scoring Convention",
+        "Section 1: Regime Type Classification Decision Tree",
+        "Section 2: Political Stability Assessment Templates",
+        "Section 3: Economic Fragility Metrics Template",
+        "Section 4: Military Capability Assessment Framework",
+        "Section 5: Social Cohesion and Identity Conflict Template",
+        "Section 6: External Interference Vulnerability Assessment",
+        "Section 7: Regional Power Dynamics Mapping Methodology",
+        "Section 8: Trigger Event Identification Framework",
+        "Section 9: Fragile State Early Warning Indicators",
+        "Section 10: Alliance Commitment Reliability Scoring",
+        "Section 11: Information Environment Assessment",
+        "Section 12: Scenario Generation \u2014 Template-to-QSFE Integration",
+        "Section 13: Cross-Regional Comparison Methodology",
+        "Section 14: QGIA Integration Notes",
+        "Section 15: Assessment Completion Checklist",
+        "References and Data Sources"
+      ],
+      "summary": "**Document ID**: QGIA-KL-RE-03-THREAT-TEMPLATES"
+    },
+    {
       "id": "qgia-library:06-01-lanchester-equations",
       "title": "Lanchester Equations: Force-on-Force Combat Modeling",
       "domain": "quantitative-models",
       "path": "06-quantitative-models/06-01-lanchester-equations.md",
       "checksum": "c50908b450190b08",
       "word_count": 1504,
-      "last_modified": "2026-03-13T15:34:19.911288+00:00",
+      "last_modified": "2026-03-14T00:36:20.727829+00:00",
       "tags": [
         "Purpose",
         "1. FOUNDATIONAL CONCEPTS",
@@ -252,6 +311,94 @@
         "REFERENCES"
       ],
       "summary": "**Document ID**: QGIA-KL-QM-06-01"
+    },
+    {
+      "id": "qgia-library:08-crisis-escalation-ladder",
+      "title": "Crisis Escalation Ladder Framework",
+      "domain": "validation-metrics",
+      "path": "08-crisis-protocols/08-crisis-escalation-ladder.md",
+      "checksum": "b5ff79bf11e6774c",
+      "word_count": 6782,
+      "last_modified": "2026-03-14T00:36:20.728753+00:00",
+      "tags": [
+        "Purpose",
+        "1. CRISIS PHASE DEFINITIONS",
+        "2. ESCALATION INDICATORS BY PHASE",
+        "3. DE-ESCALATION OPPORTUNITY WINDOWS",
+        "4. INTERVENTION OPTION DECISION TREES",
+        "5. BACKCHANNEL COMMUNICATION PROTOCOLS",
+        "6. RED LINE IDENTIFICATION METHODOLOGY",
+        "7. POINT-OF-NO-RETURN ASSESSMENT FRAMEWORK",
+        "8. HERMAN KAHN'S ESCALATION LADDER \u2014 ADAPTED FOR MODERN OPERATIONS",
+        "9. ESCALATION DOMINANCE ASSESSMENT",
+        "10. HORIZONTAL VS. VERTICAL ESCALATION DYNAMICS",
+        "11. CROSS-DOMAIN ESCALATION",
+        "12. NUCLEAR THRESHOLD INDICATORS",
+        "13. HISTORICAL ESCALATION PATHWAY CASE STUDIES",
+        "14. QGIA SYSTEM INTEGRATION",
+        "15. ANALYST RAPID RESPONSE CHECKLISTS",
+        "16. QUICK REFERENCE: ESCALATION MANAGEMENT PRINCIPLES",
+        "References"
+      ],
+      "summary": "**Document ID**: QGIA-KL-CP-08-ESCALATION"
+    },
+    {
+      "id": "qgia-library:09-confidence-calibration",
+      "title": "Confidence Calibration Guide",
+      "domain": "intelligence-tradecraft",
+      "path": "09-validation-metrics/09-confidence-calibration.md",
+      "checksum": "ae60ac978e9535a9",
+      "word_count": 6260,
+      "last_modified": "2026-03-14T00:36:20.728753+00:00",
+      "tags": [
+        "Purpose",
+        "1. THE FOUR CONFIDENCE COMPONENTS",
+        "2. BRIER SCORE: CALCULATION AND INTERPRETATION",
+        "3. CALIBRATION CURVE GENERATION",
+        "4. INTERVAL ESTIMATION BEST PRACTICES",
+        "5. OVERCONFIDENCE DETECTION AND MITIGATION",
+        "6. DOMAIN-SPECIFIC CALIBRATION TABLES",
+        "7. EXTREMIZING: APPROPRIATE USE CASES AND METHODOLOGY",
+        "8. CALIBRATION CURVE CONSTRUCTION: WORKED CASE",
+        "9. HISTORICAL PERFORMANCE BENCHMARKING",
+        "10. INDIVIDUAL ANALYST CALIBRATION TRACKING",
+        "11. CALIBRATION EXERCISES FOR ANALYST TRAINING",
+        "12. COMMON CALIBRATION FAILURE MODES",
+        "13. QGIA SYSTEM INTEGRATION",
+        "14. DOCUMENT MAINTENANCE",
+        "REFERENCES"
+      ],
+      "summary": "**Document ID**: QGIA-KL-VM-09-CALIBRATION"
+    },
+    {
+      "id": "qgia-library:11-osiqp-architecture",
+      "title": "OSIQP Technical Architecture Documentation",
+      "domain": "economic-intelligence",
+      "path": "11-technology-systems/11-osiqp-architecture.md",
+      "checksum": "1c8a50578f013a30",
+      "word_count": 7121,
+      "last_modified": "2026-03-14T00:36:20.728753+00:00",
+      "tags": [
+        "Purpose",
+        "System Specifications Summary",
+        "1. System Architecture Overview",
+        "2. Source Ingestion Pipeline",
+        "3. NLP Processing Pipeline",
+        "4. Quantum-Classical Hybrid Processing Architecture",
+        "5. Sentiment Analysis: QGIA-SentimentNet v3.1",
+        "6. Data Pipeline: Ingestion to Storage",
+        "7. Query Engine and Latency Optimization",
+        "8. Security Architecture",
+        "9. Integration with QGIA Quantum Frameworks",
+        "10. API Documentation for Analyst Tools",
+        "11. Performance Monitoring and Alerting",
+        "12. Disaster Recovery and Failover",
+        "13. Troubleshooting and Maintenance Procedures",
+        "14. System Component Inventory",
+        "QGIA Integration Reference",
+        "References"
+      ],
+      "summary": "**Document ID**: QGIA-KL-TS-11-OSIQP-ARCH"
     }
   ]
 }
