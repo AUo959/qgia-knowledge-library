@@ -8,7 +8,17 @@
 
 ## Overview
 
-Comprehensive knowledge repository for quantum-inspired geopolitical intelligence analysis. This library provides the foundational knowledge spine for the QGIA operational environment, supporting 551 personnel processing 500TB daily multi-source intelligence with 94.7% accuracy and 84.7% 12-month forecast accuracy.
+Comprehensive knowledge repository for quantum-inspired geopolitical intelligence analysis. This library is the curated domain corpus for the QGIA operational environment, while the sibling `qgia-knowledge-spine` repository owns the methodology, taxonomy, and backbone layer. Together they support 551 personnel processing 500TB daily multi-source intelligence with 94.7% accuracy and 84.7% 12-month forecast accuracy.
+
+The library now also owns the bootstrap machine-readable closed-loop artifacts
+for evidence intake and outcome adjudication. This is a repo-local adoption of
+the root control-plane contract package, not a claim that the full cross-repo
+learning loop is already live.
+
+The declared live runtime centered on this material is the Perplexity Space at
+<https://www.perplexity.ai/spaces/foreign-policy-and-global-poli-_IZgsdmvSo2Yxe7LAZ5HSQ>.
+This binding is recorded as `user-declared` runtime metadata in the repo rather
+than as an independently verified external fetch.
 
 ## Repository Structure
 
@@ -20,14 +30,14 @@ qgia-knowledge-library/
 ├── 04-functional-domains/            # Military, economic, cyber, nuclear expertise
 ├── 05-operational-methods/           # SIGINT, HUMINT, GEOINT, OSINT procedures
 ├── 06-quantitative-models/           # Mathematical frameworks, algorithms
-├── 07-historical-databases/          # Conflict archives, diplomatic history
 ├── 08-crisis-protocols/              # Early warning, escalation management
 ├── 09-validation-metrics/            # Accuracy tracking, calibration standards
-├── 10-collaboration-networks/        # Inter-agency coordination, partnerships
 ├── 11-technology-systems/            # OSIQP specifications, quantum frameworks
-├── 12-ethics-governance/             # Legal frameworks, oversight mechanisms
+├── policies/                         # Repo-local operating directives
 └── references/                       # Master bibliography and external sources
 ```
+
+Planned additions such as `07-historical-databases`, `10-collaboration-networks`, and `12-ethics-governance` are tracked in `/references/missing-documents.md` until they are promoted into the live corpus.
 
 ## Core Knowledge Domains
 
@@ -148,6 +158,17 @@ qgia-knowledge-library/
 - **Early Warning Lead Time**: 127 days average
 - **Mission Success Rate**: 93%
 
+## Closed-Loop Artifacts
+
+The library is authoritative for the following machine-readable artifacts:
+
+- `data/intake/evidence-ledger.jsonl` - append-only intake of live evidence records
+- `data/truth/outcome-ledger.jsonl` - append-only outcome adjudication records tied to forecasts
+
+Current state: bootstrap. The artifacts are present and validated in this repo,
+but the operational loop still depends on the matching spine-side forecast,
+prior, calibration, and resolution-policy surfaces.
+
 ## Usage Guidelines
 
 ### For QGIA Analysts
@@ -253,7 +274,8 @@ This repository is node **QGIA-CORPUS** (`s.tag::qgia.corpus`) in the Aurora Con
 When content is pushed to `main`, a GitHub Actions workflow automatically:
 1. Scans all knowledge documents
 2. Generates `.aurora/knowledge-index.json`
-3. Publishes a `qgia.knowledge.updated` event to CONSTELLATION-PRIME
+3. Validates the corpus contract and runs repo tests
+4. Publishes a `qgia.knowledge.updated` event to CONSTELLATION-PRIME when the dispatch secret is configured
 
 ### Manifest
 The node manifest is at `.aurora/constellation.json`.
