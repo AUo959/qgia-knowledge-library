@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-04-19T00:42:25Z",
+  "artifact": "qgia_knowledge_index_local_run_receipt",
+  "scope": "repo-local knowledge-index automation verification",
+  "repo": "qgia-knowledge-library",
+  "python": "3.9.6",
+  "status": {
+    "generate": "passed",
+    "validate": "passed",
+    "tests": "passed"
+  },
+  "applied_fixes": [
+    "Removed the stale prefix DOMAIN_MAP dependency by deriving domains from the actual numbered directory slug.",
+    "Replaced remaining PEP 604 Optional syntax with Python 3.9-compatible typing in scripts/knowledge_contract.py."
+  ],
+  "remaining_blockers": [
+    "No repo-local blocker remains for a clean knowledge-index generation run in this worktree.",
+    "The GitHub workflow still depends on committing the currently untracked helper, validation, test, and bootstrap data files that the local run uses.",
+    "Repository dispatch to CONSTELLATION-PRIME remains conditional on secrets.CONSTELLATION_TOKEN.",
+    "Closed-loop operation beyond local generation still depends on sibling qgia-knowledge-spine forecast, prior, calibration, and resolution-policy surfaces."
+  ],
+  "verification_commands": [
+    "python3 scripts/generate-knowledge-index.py",
+    "python3 scripts/validate-knowledge-contract.py",
+    "python3 -m unittest discover -s tests"
+  ]
+}

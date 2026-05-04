@@ -1,8 +1,8 @@
-# Critical Missing Documents - Knowledge Spine Completion
+# Critical Missing Documents - Knowledge Library Completion
 
 **Priority Classification for Development**
 
-This document identifies 24 critical gaps in the QGIA Knowledge Library requiring development to complete the operational knowledge spine.
+This document identifies 24 critical gaps in the QGIA Knowledge Library requiring development to complete the operational corpus and close the planned library-domain gaps.
 
 ## Tier I: Mission-Critical (Immediate Development Required)
 
@@ -561,7 +561,7 @@ Each document undergoes:
 - Tier I completion: 3 months (Mission-critical operational capability)
 - Tier II completion: 6 months (Robust analytical capacity)
 - Tier III completion: 12 months (Comprehensive domain coverage)
-- Tier IV completion: 18 months (Full knowledge spine)
+- Tier IV completion: 18 months (Full knowledge library coverage)
 
 **Utilization Metrics**:
 - Document access frequency

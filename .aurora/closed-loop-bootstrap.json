@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-04-18T18:25:00Z",
+  "artifact": "qgia_library_closed_loop_bootstrap",
+  "stage": "library-bootstrap",
+  "repo": "qgia-knowledge-library",
+  "contract_package_ref": "qgia_knowledge_closed_loop_contract_v1",
+  "files": [
+    ".aurora/constellation.json",
+    "data/intake/evidence-ledger.jsonl",
+    "data/truth/outcome-ledger.jsonl"
+  ],
+  "notes": [
+    "Bootstrap state only. Spine-side forecast, prior, calibration, and resolution-policy surfaces are adopted in the sibling repo.",
+    "Evidence and outcome ledgers are present but contain no appended records yet."
+  ]
+}
