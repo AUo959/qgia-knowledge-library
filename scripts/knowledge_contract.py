@@ -33,6 +33,13 @@ CONTENT_DIR_PATTERN = re.compile(r"^\d{2}-.+")
 SKIP_DIR_NAMES = {"references", "policies", "tests"}
 SKIP_FILENAMES = {"README.md"}
 SUMMARY_METADATA_LINE = re.compile(r"^\*\*[^*]+\*\*:")
+SPECIAL_CONTENT_DIRS = {"regions"}
+REGION_DOCUMENT_DOMAINS = {
+    "README.md": "theater_readme",
+    "baseline-ledger.md": "ledger",
+    "actor-cards.md": "actor_cards",
+    "scenario-catalog.md": "scenario_catalog",
+}
 EXPECTED_CONTRACT_FILES = (
     ".aurora/constellation.json",
     ".aurora/closed-loop-bootstrap.json",
@@ -54,14 +61,14 @@ def iter_content_directories(root: Path = REPO_ROOT) -> Iterable[Path]:
             continue
         if entry.name in SKIP_DIR_NAMES:
             continue
-        if CONTENT_DIR_PATTERN.match(entry.name):
+        if CONTENT_DIR_PATTERN.match(entry.name) or entry.name in SPECIAL_CONTENT_DIRS:
             yield entry
 
 
 def iter_markdown_documents(root: Path = REPO_ROOT) -> Iterable[Path]:
     for directory in iter_content_directories(root):
         for md_file in sorted(directory.rglob("*.md")):
-            if md_file.name in SKIP_FILENAMES:
+            if md_file.name in SKIP_FILENAMES and directory.name not in SPECIAL_CONTENT_DIRS:
                 continue
             yield md_file
 
@@ -70,6 +77,20 @@ def domain_from_dir_name(directory_name: str) -> str:
     if not CONTENT_DIR_PATTERN.match(directory_name):
         raise ValueError("Expected numbered content directory, got %r" % (directory_name,))
     return directory_name.split("-", 1)[1]
+
+
+def domain_for_document(relative_path: Path) -> str:
+    top_level = relative_path.parts[0]
+    if top_level == "regions":
+        return REGION_DOCUMENT_DOMAINS.get(relative_path.name, "regional-expertise")
+    return domain_from_dir_name(top_level)
+
+
+def document_id_for_path(relative_path: Path) -> str:
+    if relative_path.parts[0] != "regions":
+        return "qgia-library:%s" % relative_path.stem
+    path_stem = relative_path.with_suffix("").as_posix().replace("/", "-")
+    return "qgia-library:%s" % path_stem.lower()
 
 
 def git_last_modified(root: Path, relative_path: Path) -> str:
@@ -125,12 +146,12 @@ def build_index(root: Path = REPO_ROOT, generated_at: Optional[str] = None) -> D
 
     for md_file in iter_markdown_documents(root):
         relative_path = md_file.relative_to(root)
-        domain = domain_from_dir_name(relative_path.parts[0])
+        domain = domain_for_document(relative_path)
         meta = extract_metadata(md_file)
 
         documents.append(
             {
-                "id": "qgia-library:%s" % md_file.stem,
+                "id": document_id_for_path(relative_path),
                 "title": meta["title"],
                 "domain": domain,
                 "path": relative_path.as_posix(),

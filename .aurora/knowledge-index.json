@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_repo": "qgia-knowledge-library",
-  "generated_at": "2026-04-22T03:44:33.422676+00:00",
+  "generated_at": "2026-05-04T04:47:22.217069+00:00",
   "documents": [
     {
       "id": "qgia-library:01-01-core-ir-theories",
@@ -399,6 +399,73 @@
         "References"
       ],
       "summary": "This document is the technical reference for the **Open-Source Intelligence Quantitative Platform (OSIQP) v4.2.1** \u2014 the primary data ingestion, processing, sentiment analysis, and query substrate supporting all QGIA analytical operations. It is intended for systems engineers, platform administrator"
+    },
+    {
+      "id": "qgia-library:regions-middle-east-iran-iran-war-2026-readme",
+      "title": "Iran War 2026 \u2014 Documentation Package",
+      "domain": "theater_readme",
+      "path": "regions/middle-east/iran/iran-war-2026/README.md",
+      "checksum": "82300bd621ae8ad9",
+      "word_count": 308,
+      "last_modified": "2026-04-19T00:17:48-04:00",
+      "tags": [
+        "Scope",
+        "Package Contents",
+        "Current Analytical Focus",
+        "Baseline Date",
+        "Dependencies",
+        "Confidence Benchmarks",
+        "Maintenance"
+      ],
+      "summary": "This package contains baseline documentation for the Iran War 2026 assessment set within the QGIA Knowledge Library. It bridges reusable QGIA schema from the Knowledge Spine with theater-specific scenario definitions, actor cards, and probability ledgers."
+    },
+    {
+      "id": "qgia-library:regions-middle-east-iran-iran-war-2026-actor-cards",
+      "title": "Iran War 2026 \u2014 Actor Cards",
+      "domain": "actor_cards",
+      "path": "regions/middle-east/iran/iran-war-2026/actor-cards.md",
+      "checksum": "c6bc0a430b56160d",
+      "word_count": 496,
+      "last_modified": "2026-04-19T00:17:48-04:00",
+      "tags": [
+        "IRGC-QF / IRGC High Command",
+        "Netanyahu Coalition / Israeli War Cabinet",
+        "US Executive Node"
+      ],
+      "summary": "**Baseline date:** 2026-04-19T00:00:00Z"
+    },
+    {
+      "id": "qgia-library:regions-middle-east-iran-iran-war-2026-baseline-ledger",
+      "title": "Iran War 2026 \u2014 Baseline Probability Ledger",
+      "domain": "ledger",
+      "path": "regions/middle-east/iran/iran-war-2026/baseline-ledger.md",
+      "checksum": "9461e22e242c98dc",
+      "word_count": 493,
+      "last_modified": "2026-04-19T00:17:48-04:00",
+      "tags": [
+        "Strategic War Outcomes (0\u2013180 days)",
+        "Regime Trajectory Set (12 months)",
+        "Composite Confidence Breakdown",
+        "Update Log"
+      ],
+      "summary": "**Baseline date:** 2026-04-19T00:00:00Z"
+    },
+    {
+      "id": "qgia-library:regions-middle-east-iran-iran-war-2026-scenario-catalog",
+      "title": "Iran War 2026 \u2014 Scenario Catalog",
+      "domain": "scenario_catalog",
+      "path": "regions/middle-east/iran/iran-war-2026/scenario-catalog.md",
+      "checksum": "16328f23f57a4833",
+      "word_count": 712,
+      "last_modified": "2026-04-19T00:17:48-04:00",
+      "tags": [
+        "Tier I Scenarios (P \u2265 0.25)",
+        "Tier II Scenarios (P 0.10\u20130.25)",
+        "Tier III Scenarios (P < 0.10)",
+        "Scenario Descriptions",
+        "Monitoring Indicators"
+      ],
+      "summary": "**Baseline date:** 2026-04-19T00:00:00Z"
     }
   ]
 }

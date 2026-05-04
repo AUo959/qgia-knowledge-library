@@ -28,6 +28,7 @@ These scenarios have materially elevated probability and must be included in ris
 | `IRN_REGIME_H2_MANAGED_TRANSITION` | 0.22 | 12m | II |
 | `IRN_REGIME_H3_REVOLUTIONARY_COLLAPSE` | 0.20 | 12m | II |
 | `IRN_WAR_CEASEFIRE_0_60D` | 0.24 | 0–60d | II |
+| `IRN_REGIME_H4_FRAGMENTED_AUTHORITY` | 0.14 | 12m | II |
 | `IRN_WAR_CARRIER_COMBAT_LOSS` | 0.11 | 0–180d | II |
 
 ---
@@ -36,9 +37,7 @@ These scenarios have materially elevated probability and must be included in ris
 
 These scenarios have lower probability but potentially catastrophic consequences and must not be ignored in risk framing.
 
-| Scenario ID | P | Window | Notes |
-|---|---:|---|---|
-| `IRN_REGIME_H4_FRAGMENTED_AUTHORITY` | 0.13 | 12m | Just below Tier II threshold; monitor for elite fracture signals |
+No baseline scenario currently falls below `0.10`. Retain this tier for future low-probability, high-impact tail scenarios.
 
 ---
 

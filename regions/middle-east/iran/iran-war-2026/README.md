@@ -29,12 +29,14 @@ All initial estimates are anchored to: **2026-04-19T00:00:00Z**
 
 This package depends on the following QGIA Knowledge Spine documents:
 
-- `frameworks/iran-war-scenario-taxonomy.md`
-- `schemas/actor-card-schema.md`
-- `schemas/probability-ledger-schema.md`
-- `methods/iran-regime-dirichlet-template.md`
+- `qgia-knowledge-spine/frameworks/iran-war-scenario-taxonomy.md`
+- `qgia-knowledge-spine/schemas/actor-card-schema.md`
+- `qgia-knowledge-spine/schemas/probability-ledger-schema.md`
+- `qgia-knowledge-spine/methods/iran-regime-dirichlet-template.md`
 
 All `scenario_id` values used in this package must conform to the canonical taxonomy defined in the Spine.
+
+Knowledge-index publication includes this `regions/` package as regional expertise content. The package README is indexed as `theater_readme`; the package ledger, actor cards, and scenario catalog use their matching document domains.
 
 ## Confidence Benchmarks
 

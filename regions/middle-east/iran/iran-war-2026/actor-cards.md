@@ -3,6 +3,8 @@
 **Baseline date:** 2026-04-19T00:00:00Z  
 All cards conform to the actor card schema defined in `qgia-knowledge-spine/schemas/actor-card-schema.md`.
 
+Mode identifiers referenced in trigger rules are defined by the Tactical / Modality Set in `qgia-knowledge-spine/frameworks/iran-war-scenario-taxonomy.md`; they are mode-taxonomy references, not standalone rows in this package's probability ledger.
+
 ---
 
 ## IRGC-QF / IRGC High Command
@@ -39,6 +41,7 @@ All cards conform to the actor card schema defined in `qgia-knowledge-spine/sche
       "condition_id": "US_DOMESTIC_DIVISION_HIGH",
       "if": { "indicator": "us_domestic_division", "operator": ">=", "threshold": 0.7 },
       "then": {
+        "scenario_id_scope": "Tactical / Modality Set in qgia-knowledge-spine/frameworks/iran-war-scenario-taxonomy.md",
         "increase_probabilities": { "scenario_ids": ["IRN_MODE_PROXY_ESCALATION_SLOW_BURN"], "delta": 0.05 },
         "decrease_probabilities": { "scenario_ids": ["IRN_MODE_NO_ESCALATION"], "delta": 0.04 }
       }
@@ -47,6 +50,7 @@ All cards conform to the actor card schema defined in `qgia-knowledge-spine/sche
       "condition_id": "REGIME_SURVIVAL_CRITICAL",
       "if": { "indicator": "IRN_REGIME_H3_REVOLUTIONARY_COLLAPSE", "operator": ">=", "threshold": 0.35 },
       "then": {
+        "scenario_id_scope": "Tactical / Modality Set in qgia-knowledge-spine/frameworks/iran-war-scenario-taxonomy.md",
         "increase_probabilities": { "scenario_ids": ["IRN_MODE_HIGH_END_NAVAL_GAMBIT", "IRN_MODE_GULF_INFRASTRUCTURE_STRIKES"], "delta": 0.08 }
       }
     }
@@ -92,6 +96,7 @@ All cards conform to the actor card schema defined in `qgia-knowledge-spine/sche
       "condition_id": "US_SIGNALS_CEASEFIRE",
       "if": { "indicator": "US_MODE_SIGNAL_CEASEFIRE", "operator": "==", "threshold": 1 },
       "then": {
+        "scenario_id_scope": "Tactical / Modality Set in qgia-knowledge-spine/frameworks/iran-war-scenario-taxonomy.md",
         "increase_probabilities": { "scenario_ids": ["ISR_MODE_TACTICAL_PAUSE"], "delta": 0.10 },
         "decrease_probabilities": { "scenario_ids": ["ISR_MODE_DEEP_STRIKES_IRAN"], "delta": 0.06 }
       }
@@ -138,6 +143,7 @@ All cards conform to the actor card schema defined in `qgia-knowledge-spine/sche
       "condition_id": "US_CASUALTY_THRESHOLD",
       "if": { "indicator": "us_military_casualty_reports", "operator": ">=", "threshold": 0.6 },
       "then": {
+        "scenario_id_scope": "Tactical / Modality Set in qgia-knowledge-spine/frameworks/iran-war-scenario-taxonomy.md",
         "increase_probabilities": { "scenario_ids": ["US_MODE_SIGNAL_CEASEFIRE"], "delta": 0.12 },
         "decrease_probabilities": { "scenario_ids": ["US_MODE_ESCALATE_RHETORIC"], "delta": 0.08 }
       }
@@ -146,6 +152,7 @@ All cards conform to the actor card schema defined in `qgia-knowledge-spine/sche
       "condition_id": "GAS_PRICE_SPIKE",
       "if": { "indicator": "gas_price_index", "operator": ">=", "threshold": 0.75 },
       "then": {
+        "scenario_id_scope": "Tactical / Modality Set in qgia-knowledge-spine/frameworks/iran-war-scenario-taxonomy.md",
         "increase_probabilities": { "scenario_ids": ["US_MODE_SIGNAL_CEASEFIRE", "US_MODE_NAVAL_CONVOY_THREAT"], "delta": 0.07 }
       }
     }

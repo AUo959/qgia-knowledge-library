@@ -29,12 +29,14 @@ Modeled as mutually exclusive and collectively exhaustive. Use Dirichlet prior D
 | `IRN_REGIME_H1_HARDLINE_SURVIVAL` | Hardline survival | 12m | 0.44 | 0.72 | IRGC cohesion intact; wartime nationalism reinforcing regime. |
 | `IRN_REGIME_H2_MANAGED_TRANSITION` | Managed internal transition | 12m | 0.22 | 0.67 | Internal adjustment without collapse; partial elite opening. |
 | `IRN_REGIME_H3_REVOLUTIONARY_COLLAPSE` | Revolutionary collapse | 12m | 0.20 | 0.68 | Possible under sustained military losses and unrest; not dominant. |
-| `IRN_REGIME_H4_FRAGMENTED_AUTHORITY` | Fragmented authority | 12m | 0.13 | 0.65 | Requires deeper institutional breakdown; currently lower-probability. |
+| `IRN_REGIME_H4_FRAGMENTED_AUTHORITY` | Fragmented authority | 12m | 0.14 | 0.65 | Requires deeper institutional breakdown; currently lower-probability. |
 | **Total** | | | **1.00** | | |
 
 ---
 
 ## Composite Confidence Breakdown
+
+Composite confidence uses the QGIA Confidence Calibration Score formula: `CCS = (0.30 × DQ) + (0.25 × SR) + (0.25 × MR) + (0.20 × TS)`.
 
 | Component | Score | Notes |
 |---|---:|---|
@@ -42,7 +44,6 @@ Modeled as mutually exclusive and collectively exhaustive. Use Dirichlet prior D
 | Source Reliability | 0.74 | Multi-source OSINT with moderate SIGINT corroboration |
 | Methodological Rigor | 0.82 | Bayesian + Lanchester + ABCP ensemble active |
 | Temporal Stability | 0.68 | Highly fluid; 0–30d estimates subject to rapid revision |
-| Quantum Coherence | 0.76 | Model inter-agreement acceptable; divergence on naval tail |
 | **Composite** | **0.74** | |
 
 ---

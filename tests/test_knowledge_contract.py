@@ -46,6 +46,25 @@ class KnowledgeContractTests(unittest.TestCase):
             "technology-systems",
         )
 
+    def test_build_index_includes_regions_package(self) -> None:
+        index = knowledge_contract.build_index(
+            root=REPO_ROOT,
+            generated_at="2026-04-18T00:00:00+00:00",
+        )
+        documents = {document["path"]: document for document in index["documents"]}
+        readme = documents["regions/middle-east/iran/iran-war-2026/README.md"]
+        ledger = documents["regions/middle-east/iran/iran-war-2026/baseline-ledger.md"]
+        actor_cards = documents["regions/middle-east/iran/iran-war-2026/actor-cards.md"]
+        scenario_catalog = documents["regions/middle-east/iran/iran-war-2026/scenario-catalog.md"]
+        self.assertEqual(readme["domain"], "theater_readme")
+        self.assertEqual(ledger["domain"], "ledger")
+        self.assertEqual(actor_cards["domain"], "actor_cards")
+        self.assertEqual(scenario_catalog["domain"], "scenario_catalog")
+        self.assertEqual(
+            readme["id"],
+            "qgia-library:regions-middle-east-iran-iran-war-2026-readme",
+        )
+
     def test_bootstrap_evidence_ledger_allows_empty_history(self) -> None:
         failures = knowledge_contract.validate_evidence_ledger(REPO_ROOT)
         self.assertEqual(failures, [])
