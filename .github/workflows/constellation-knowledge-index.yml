@@ -32,6 +32,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Generate knowledge index
         run: python3 scripts/generate-knowledge-index.py
 
@@ -65,7 +68,6 @@ jobs:
               "timestamp": "${{ github.event.head_commit.timestamp }}",
               "payload": {
                 "commit_sha": "${{ github.sha }}",
-                "commit_message": "${{ github.event.head_commit.message }}",
                 "index_url": "https://raw.githubusercontent.com/AUo959/qgia-knowledge-library/main/.aurora/knowledge-index.json"
               }
             }
