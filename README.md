@@ -3,8 +3,9 @@
 **Quantum Geopolitical Intelligence Agency - Reference Architecture**
 
 [![Classification: PROPRIETARY](https://img.shields.io/badge/Classification-PROPRIETARY-red.svg)]()
-[![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-blue.svg)]()
+[![Version: 1.1.0](https://img.shields.io/badge/Version-1.1.0-blue.svg)]()
 [![Framework: QGIA v4.0.0 | OSIQP v4.2.1](https://img.shields.io/badge/Framework-QGIA%20v4.0.0%20%7C%20OSIQP%20v4.2.1-green.svg)]()
+[![Last Updated: 2026-06-15](https://img.shields.io/badge/Last%20Updated-2026--06--15-brightgreen.svg)]()
 
 ## Overview
 
@@ -20,6 +21,21 @@ The declared live runtime centered on this material is the Perplexity Space at
 This binding is recorded as `user-declared` runtime metadata in the repo rather
 than as an independently verified external fetch.
 
+---
+
+## Active Theater Index
+
+*Last synchronized: 2026-06-15 | WATCHCON II across all theaters*
+
+| Theater | Operation | Status | Day | Next Trigger | Last Updated | Ledger |
+|---|---|---|---:|---|---|---|
+| **Iran / Middle East** | Op Epic Fury | Active — MoU unsigned | 107 | Geneva signing June 19 | 2026-06-15 | [baseline-ledger](regions/middle-east/iran/iran-war-2026/baseline-ledger.md) |
+| **Ukraine / Eastern Europe** | — | Active — War Day 1,572 | 1572 | G7 Évian June 15–17; NATO Ankara July | 2026-06-15 | [Ukraine ledger](regions/ukraine/QGIA_Ukraine_Ledger_2026-W24.md) |
+| **Venezuela / W. Hemisphere** | Op Absolute Resolve | Stabilized — legal track | 163 | SDNY hearing June 30 | 2026-06-15 | [Venezuela ledger](regions/western-hemisphere/venezuela/QGIA_Venezuela_Ledger_2026-W24.md) |
+| **US Domestic** | — | Monitoring | — | Midterms Nov 3, 2026 | 2026-06-15 | *Pending: regions/domestic-us/* |
+
+---
+
 ## Repository Structure
 
 ```
@@ -34,10 +50,16 @@ qgia-knowledge-library/
 ├── 09-validation-metrics/            # Accuracy tracking, calibration standards
 ├── 11-technology-systems/            # OSIQP specifications, quantum frameworks
 ├── policies/                         # Repo-local operating directives
-└── references/                       # Master bibliography and external sources
+├── references/                       # Master bibliography and external sources
+└── regions/                          # Active theater ledgers and assessments
+    ├── QGIA_Global_Monitoring_Report_2026-06-14.md
+    ├── middle-east/iran/iran-war-2026/  # Op Epic Fury — Day 107
+    ├── ukraine/                        # War Day 1,572
+    ├── western-hemisphere/venezuela/   # Op Absolute Resolve — D+163
+    └── weekly-rollups/                 # W24 June 9–15 rollup
 ```
 
-Planned additions such as `07-historical-databases`, `10-collaboration-networks`, and `12-ethics-governance` are tracked in `/references/missing-documents.md` until they are promoted into the live corpus.
+Planned additions: `07-historical-databases`, `10-collaboration-networks`, `12-ethics-governance`, `regions/domestic-us/` are tracked in `/references/missing-documents.md`.
 
 ## Core Knowledge Domains
 
@@ -162,12 +184,39 @@ Planned additions such as `07-historical-databases`, `10-collaboration-networks`
 
 The library is authoritative for the following machine-readable artifacts:
 
-- `data/intake/evidence-ledger.jsonl` - append-only intake of live evidence records
-- `data/truth/outcome-ledger.jsonl` - append-only outcome adjudication records tied to forecasts
+- `data/intake/evidence-ledger.jsonl` — append-only intake of live evidence records
+- `data/truth/outcome-ledger.jsonl` — append-only outcome adjudication records tied to forecasts
 
 Current state: bootstrap. The artifacts are present and validated in this repo,
 but the operational loop still depends on the matching spine-side forecast,
 prior, calibration, and resolution-policy surfaces.
+
+## Document Status
+
+### Current Holdings (as of 2026-06-15)
+
+| Document | Path | Status |
+|---|---|---|
+| QGIA OP Axioms v2 | `QGIA_OP_Axioms_v2.md` | ✅ Current |
+| Global Monitoring Report | `regions/QGIA_Global_Monitoring_Report_2026-06-14.md` | ✅ Current (June 14) |
+| Weekly Rollup W24 | `regions/weekly-rollups/QGIA_Weekly_Rollup_2026-W24_June09-15.md` | ✅ Current |
+| Ukraine Ledger W24 | `regions/ukraine/QGIA_Ukraine_Ledger_2026-W24.md` | ✅ Current |
+| Iran Baseline Ledger | `regions/middle-east/iran/iran-war-2026/baseline-ledger.md` | ✅ Current |
+| Iran Actor Cards | `regions/middle-east/iran/iran-war-2026/actor-cards.md` | ✅ Current |
+| Iran Scenario Catalog | `regions/middle-east/iran/iran-war-2026/scenario-catalog.md` | ✅ Current (MoU-era) |
+| Iran Theater README | `regions/middle-east/iran/iran-war-2026/README.md` | ✅ Current |
+| Venezuela Ledger W24 | `regions/western-hemisphere/venezuela/QGIA_Venezuela_Ledger_2026-W24.md` | ✅ Current |
+
+### Known Gaps (Pending Creation)
+
+| Document | Priority | Notes |
+|---|---|---|
+| `regions/domestic-us/` directory + approval ledger | High | Theater IV has zero repo representation |
+| `regions/ukraine/baseline-ledger.md` | High | Structured probability ledger mirroring Iran format |
+| `regions/middle-east/iran/iran-war-2026/mou-negotiation-log.md` | Medium | 14-point framework, fault lines, 60-day follow-on calendar |
+| `07-historical-databases/` | Low | Tracked in `/references/missing-documents.md` |
+| `10-collaboration-networks/` | Low | Tracked in `/references/missing-documents.md` |
+| `12-ethics-governance/` | Low | Tracked in `/references/missing-documents.md` |
 
 ## Usage Guidelines
 
@@ -192,43 +241,6 @@ prior, calibration, and resolution-policy surfaces.
 2. **Methodology Transparency**: Shared frameworks facilitate collaborative analysis
 3. **Data Exchange**: Structured knowledge base supports automated information fusion
 4. **Lessons Learned**: After-action reviews contribute to collective improvement
-
-## Document Status
-
-### Current Holdings (from previous analyses)
-- ✅ QGIA Operational Environment v3.0
-- ✅ OSIQP v4.2.1 Technical Specifications
-- ✅ Quantum Framework Algorithm Descriptions
-- ✅ Performance Metrics Dashboard
-
-### Critical Gaps Identified (24 documents needed)
-See `/references/missing-documents.md` for prioritized list of required additions.
-
-## Development Roadmap
-
-### Phase 1: Foundation (Months 1-3)
-- Core theoretical frameworks
-- Essential analytical methodologies
-- Critical historical case studies
-- Baseline quantitative models
-
-### Phase 2: Expansion (Months 4-6)
-- Regional expertise deepening
-- Functional domain specialization
-- Advanced quantitative techniques
-- Validation metric implementation
-
-### Phase 3: Integration (Months 7-9)
-- Cross-domain synthesis
-- Automated knowledge extraction
-- AI-assisted retrieval systems
-- Real-time updating protocols
-
-### Phase 4: Optimization (Months 10-12)
-- Performance benchmarking
-- Gap analysis and remediation
-- User feedback incorporation
-- Continuous improvement mechanisms
 
 ## Contributing
 
@@ -256,6 +268,7 @@ Questions, suggestions, or access requests:
 
 ## Version History
 
+- **v1.1.0** (2026-06-15): Active theater index added; Venezuela theater created; scenario-catalog corrected (resolved archive); Ukraine ledger added; Iran README and README root updated to W24 operational state
 - **v1.0.0** (2026-02-15): Initial repository creation and structure establishment
 
 ---
