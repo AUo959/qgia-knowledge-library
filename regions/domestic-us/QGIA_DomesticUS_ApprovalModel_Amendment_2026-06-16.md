@@ -3,7 +3,8 @@
 **Issued: June 16, 2026, 10:04 EDT | Senior Analyst TS/SCI**
 **Amendment to: `QGIA_DomesticUS_Approval_Ledger_2026-W24.md`**
 **Status: SUPERSEDES all prior MoU bounce projections in W24 ledger**
-**ADDENDUM APPENDED: June 16, 2026, 12:34 EDT — UFC Dual-Damage Vector / MAGA Epistemic Closure**
+**ADDENDUM 1: June 16, 2026, 12:34 EDT — UFC Dual-Damage Vector / MAGA Epistemic Closure**
+**ADDENDUM 2: June 16, 2026, 12:46 EDT — Vector C / Full Chaos Inventory; upgraded to TRIPLE-DAMAGE compound event**
 
 ---
 
@@ -54,12 +55,14 @@ A diplomatic signing ceremony does not change what voters paid at the pump on Ju
 
 ---
 
-## II. UFC FREEDOM 250 — DUAL-DAMAGE VECTOR ASSESSMENT
-**[UPDATED June 16, 2026, 12:34 EDT — expanded from single-event to dual-damage integrated analysis]**
+## II. UFC FREEDOM 250 — TRIPLE-DAMAGE COMPOUND EVENT
+**[FINAL VERSION: upgraded to triple-damage, June 16, 2026, 12:46 EDT]**
 
 ### Event Summary
 
-On June 14, 2026 — Trump's 80th birthday — UFC Freedom 250 was staged on the White House South Lawn. Pre-event lawsuit required federal court ruling to proceed. Estimated cost: ~$60M. Attendance: thousands. Result: net political damage across **two structurally distinct and mutually reinforcing damage vectors**.
+UFC Freedom 250, June 14, 2026. White House South Lawn. Trump's 80th birthday. Framed as America 250th anniversary celebration. Required federal court ruling to proceed after lawsuit. Estimated cost: ~$60M public resources, seven government agencies allocated significant manpower. Attendees: 4,000+ on South Lawn including senior administration officials, foreign heads of state, Mark Zuckerberg, and active military; thousands more at Ellipse fan fest. UFC's own crypto partner World Liberty Financial — co-owned by the Trump family — provided a $250,000 bonus pool, further blurring the line between presidential staging and Trump family financial interests.
+
+Result: **three structurally distinct damage vectors, all compressed into one nationally broadcast evening on the most symbolically loaded venue in American political life.**
 
 ---
 
@@ -73,6 +76,8 @@ This is a **durable narrative-degradation event**, not a media moment. It belong
 
 The event was a self-own at maximum exposure: nationally broadcast, staged by the administration, on the most symbolically loaded venue in American political life. The administration cannot complain about the coverage framing. They built the stage.
 
+The AP filed a direct comparison: *"When Trump's predecessor, President Joe Biden, turned 80 in November 2022, he celebrated with a private family brunch at the White House."* A Cornell classics professor invoked the comparison to Imperial Rome directly in wire copy: *"This is a classic strategy. In ancient Rome, the phrase would be 'bread and circuses.'"* That framing is now permanently attached to this event in the record.
+
 **Analytical classification:** Midterm-relevant capacity signal. Does not cause an acute approval drop. Degrades the load-bearing "strength/competence" narrative that the base requires to sustain turnout enthusiasm. Cross-references directly to the [Integrated Term-Completion Framework](./QGIA_Trump_TermCompletion_IntegratedFramework_2026-06-16.md) — the nine-year deterioration record, the health fabrication architecture, and the truncated horizon behavioral signature.
 
 ---
@@ -81,54 +86,56 @@ The event was a self-own at maximum exposure: nationally broadcast, staged by th
 
 **What happened:** UFC heavyweight Josh Hokit, after defeating Derrick Lewis, seized the post-fight microphone with Joe Rogan on the White House South Lawn and said: *"Michelle Obama is a man. Am I right, America?"*
 
-The crowd response was **split — laughs and audible groans**. Rogan smiled and said nothing, wrapping with *"Ladies and gentlemen, Josh Hokit."* Trump accepted a handshake and chain from Hokit afterward. Trump's subsequent Truth Social post congratulated fighters as "outstanding" while **completely ignoring the comment**. Dana White — Trump's closest sports world ally — publicly distanced himself: *"completely against saying nasty and false things about people's families."* MAGA-adjacent comedian Shane Gillis, present at the event, told TMZ he *"didn't love"* the comment.
+The crowd response was **split — laughs and audible groans**. Rogan smiled and said nothing. Trump accepted a handshake and chain from Hokit afterward. Trump's Truth Social post congratulated fighters as "outstanding" while completely ignoring the comment. Dana White publicly distanced himself. MAGA-adjacent comedian Shane Gillis told TMZ at the event he *"didn't love"* the comment.
 
-**Why this is analytically significant — the epistemic closure diagnosis:**
+**Epistemic closure diagnosis:** The claim has zero penetration outside the bubble. The assumed universal laugh track — "Am I right, America?" — encountered a split room at a Trump event. Dana White and Gillis distancing themselves *in real time* is direct empirical evidence that the bubble's internal approval metrics do not map to the actual target audience. The ecosystem has no mechanism to receive that signal. Three weeks prior, Michelle Obama had defended MAGA voters on podcast, calling them "decent individuals without viable options." She is engaging with their reality; they are not aware hers exists.
 
-The Michelle Obama "is a man" conspiracy theory is one of the most thoroughly self-contained MAGA information products ever produced. It has **zero penetration outside the ecosystem.** It is not a claim that persuadable voters find credible. It is not a claim that UFC fans — the precise demographic Trump needs — generally find funny or true.
-
-The mechanism of failure is instructive. Inside the bubble:
-- The claim circulates as established fact
-- Repeating it signals tribal membership and earns internal approval metrics
-- The assumed laugh track is universal — "Am I right, America?" presupposes a shared reference
-- The ecosystem has no feedback mechanism for measuring how it lands outside itself
-
-But the actual audience was **split in the room**. Dana White distanced himself at the event. Gillis distanced himself to TMZ **while still at the event**. Rogan went silent. These are not hostile liberal media figures. These are people inside or adjacent to the MAGA ecosystem providing real-time negative feedback — and the ecosystem will not process it, because the architecture is not designed to receive that signal.
-
-**The three-week context that sharpens the irony:**
-
-Three weeks before Hokit's comment, Michelle Obama sat for the Talk Easy podcast and said about MAGA voters:
-
-> *"You can't simply categorize them and claim 'you don't care and you're prejudiced.' This is a response of 'I'm at a loss for alternatives.' They are decent individuals without viable options, which often leads to poor decisions."*
-
-She defended them. She extended analytical generosity toward the economic conditions driving MAGA support. The MAGA ecosystem's response, on the White House lawn, three weeks later: a transphobic conspiracy theory, nationally broadcast, accepted with a handshake by the president.
-
-She is engaging with their reality. They are not engaging with hers. They do not know it exists. That is the epistemic gap rendered in a single exchange.
-
-**The four reasons this incident has political durability beyond a one-day cycle:**
-
-1. **The venue made it presidential.** This was not a rally or podcast. It was the White House South Lawn, a nationally broadcast event framed as America's 250th anniversary celebration. The location transforms a culture-war comment into an institutional statement made *at* the presidency, *on behalf of* the presidency.
-
-2. **The UFC audience is not the base.** UFC fans skew working-class male — exactly the demographic Trump needs to hold. The split crowd reaction in real time is direct evidence the content did not play to its assumed room. This is the target audience providing live negative feedback.
-
-3. **Dana White's distancing is the canary.** When Trump's most loyal sports world ally publicly distances himself from a White House event comment, he is signaling that even the inner circle registered a political cost. This is a qualitative signal that polling cannot capture in real time but that matters for the coalition management picture.
-
-4. **Barack Obama's response was strategically optimal.** Rather than outrage-amplifying Hokit's profile, Obama reframed: *"The majority of people find this deeply troubling... but I'm around the country and you meet people who still have decency and kindness."* He used the incident to reinforce his own frame — that MAGA media spectacle is not representative of the country — without elevating the attacker. This is the correct opposition play and it will age well in the midterm narrative cycle.
+**Analytical classification:** MAGA cultural brand / coalition breadth damage. Medium-high durability. The venue association — White House South Lawn, nationally broadcast — makes it a permanent institutional record, not a personal opinion.
 
 ---
 
-### DUAL-DAMAGE SYNTHESIS — WHY THE VECTORS COMPOUND
+### DAMAGE VECTOR C — THE FULL CHAOS INVENTORY: INSTITUTIONAL DIGNITY SIGNAL
 
-Vectors A and B are analytically distinct but politically compounding because they hit **different target audiences simultaneously** at the same event:
+**[Added June 16, 2026, 12:46 EDT per analyst flag]**
 
-| Vector | Primary Damage | Target Audience Damaged | Durability |
+Beyond Vectors A and B, the full event produced a cascade of chaos incidents that, taken together, constitute a third damage vector: **institutional dignity degradation**. Each incident individually is dismissible as a single story. The full inventory, compressed into one evening on the White House grounds, is not.
+
+**C1 — Crowd brawl on the South Lawn**
+A physical fight broke out among spectators in the crowd during the event. Video from the scene shows two attendees in a physical altercation before security intervened. This is not a gang brawl or mass disturbance — it is two people fighting — but the location is dispositive. A fistfight among drunk spectators on the South Lawn of the White House, at a nationally broadcast presidential event, framed as an America 250 celebration, is an institutional image that has no precedent and no favorable framing. The Secret Service and event security are trained to prevent exactly this. The fact that it happened — on camera, at the most secure civilian venue in the country — is itself the story.
+
+**C2 — Sean Strickland removal by federal law enforcement**
+UFC Middleweight champion Sean Strickland — a once-vocal Trump supporter — attended the Ellipse fan fest uninvited, entered a wrestling ring set up in the public area, and caused sufficient disorder that U.S. Park Police, federal marshals, and assisting agencies were required to evacuate him for his own safety and the safety of attendees. Strickland stated on his Instagram Story he thought he "might be going to jail." The Park Police issued a formal statement. Strickland was advised not to return to the venue. He was not on the fight card because, per his own social media, he was excluded due to his views on Israel — which UFC denied. A former Trump ally, visibly excluded, causing a federal law enforcement response at a White House event on the president's birthday, is not a contained story.
+
+**C3 — FBI-foiled attack plot targeting the event**
+The FBI confirmed it had foiled planned attacks targeting the White House UFC event. This item, which would be the dominant story at any normal event, was almost entirely buried under the volume of other incidents from the same evening. That it is a footnote rather than the headline is itself analytically significant: the chaos density of the event was sufficient to suppress a major security story.
+
+**C4 — Weather delay and full evacuation**
+The event was delayed ~45 minutes by inclement weather — thunderstorms and high winds. Attendees were fully evacuated from the South Lawn at event's end, with crews beginning an extensive cleanup operation slated to take more than a week. Dana White, pre-event: *"I'm sick and tired of hearing about the weather"* and conceded he would prefer to hold future UFC events inside arenas only. The administration's own event partner publicly registered that the venue was wrong for the format.
+
+**C5 — Kennedy Center name removal**
+During the same weekend, crews pried Trump's name off the Kennedy Center after a federal judge ruled the renaming had gone too far. This item — a judicial rebuke removing the president's name from a national cultural institution during his birthday weekend — was likewise buried.
+
+**C6 — The Trump family crypto conflict**
+World Liberty Financial — co-owned by the Trump family, founded with his special diplomatic envoy Steve Witkoff, run by his son Zach — was announced as an official UFC event partner providing a $250,000 bonus pool for fighters. This arrangement, noted in AP wire copy, further blurs the line between the presidency and Trump family financial interests at a government-funded event on federal grounds.
+
+---
+
+### TRIPLE-DAMAGE SYNTHESIS — THE FULL INVENTORY
+
+| Vector | Primary Damage | Durability | Buried by chaos? |
 |---|---|---|---|
-| A — Dozing footage | Presidential capacity / health narrative | Soft Republicans, independents, suburban voters | High — visual artifact, durable interpretive frame |
-| B — Hokit comment | MAGA cultural brand / coalition breadth signal | UFC fans (working-class male), persuadable independents, corporate/celebrity ecosystem | Medium-high — venue association is permanent record |
+| A — Dozing footage | Presidential capacity signal | **High** — durable visual frame | No — led coverage |
+| B — Hokit comment | MAGA epistemic closure / coalition breadth | **Medium-High** — permanent venue record | Partially |
+| C1 — Crowd brawl | Institutional dignity / venue security | **Medium** — image problem | Yes — buried |
+| C2 — Strickland removal | Ally alienation / federal law enforcement spectacle | **Medium** — symbolic | Yes — buried |
+| C3 — FBI foiled attack | Security / threat environment | **Low-Medium** — would dominate any normal event | **Completely buried** |
+| C4 — Weather/evacuation | Operational competence / venue judgment | **Low** — one-day | Yes |
+| C5 — Kennedy Center rebuke | Judicial check / birthday weekend symbolism | **Medium** — narrative irony | Yes — buried |
+| C6 — Trump crypto conflict | Ethics / financial self-dealing | **Medium-High** — accumulates with pattern | Yes — buried |
 
-The compounding effect: **the same event that produced the most significant public presidential frailty footage since Biden's debate simultaneously produced the most explicit public display of MAGA epistemic closure since the 2020 stolen-election cycle.** An undecided voter watching UFC Freedom 250 on Paramount+ saw both in the same evening. The administration cannot isolate or manage either vector independently — they are permanently fused to the same event in the same broadcast record.
+**The analytical significance of the burial pattern:** The chaos density of UFC Freedom 250 was sufficient to suppress an FBI counterterrorism story, a federal court rebuke, a family financial conflict, and a fighter-removal incident. When a single evening produces that volume of damaging material and the most serious items are buried by the less serious ones, the event has achieved a kind of compound damage that no communications team can fully manage. You cannot rebut eight stories simultaneously. You cannot change the subject when you *are* every subject.
 
-**Analytical classification: UFC Freedom 250 is a dual-damage compound event — capacity signal plus epistemic closure specimen — with midterm-relevant durability across both vectors.**
+**Final classification: UFC Freedom 250 is a triple-damage compound event — capacity signal (A), epistemic closure specimen (B), and institutional dignity cascade (C) — with midterm-relevant durability across all three vectors and a chaos-burial dynamic that prevented effective damage control on the most serious individual items.**
 
 ---
 
@@ -150,14 +157,13 @@ The approval floor is load-bearing and does not move on diplomatic events:
 - **Cost-of-living approval: 22%** — set months ago, unchanged
 - **Iran handling disapproval: 60–66%** across all major pollsters
 
-These numbers are driven by material conditions (gas prices, grocery prices, tariff pass-through) that a Geneva signing ceremony does not change. Until retail prices move, these metrics do not move. The earliest plausible relief date — assuming Hormuz implementation proceeds on schedule — is mid-to-late July. That is after the *Regime Change* saturation cycle and deep into the midterm framing window.
+These numbers are driven by material conditions (gas prices, grocery prices, tariff pass-through) that a Geneva signing ceremony does not change. Until retail prices move, these metrics do not move. The earliest plausible relief date — assuming Hormuz implementation proceeds on schedule — is mid-to-late July.
 
 ### Midterm Structural Model — Unchanged
 
 - Generic ballot: Democrats +5.8% (41.9% vs 36.1%)
-- At least one pollster showing double-digit Democratic generic ballot lead
 - Structural model projects ~11–12 Republican House seat losses — sufficient for Democratic majority
-- **This model is unchanged by the MoU or the UFC event.** The corrected approval trajectory (flat to marginally negative) does not alter the midterm structural picture.
+- **This model is unchanged by the MoU or the UFC event.**
 
 ---
 
@@ -166,26 +172,26 @@ These numbers are driven by material conditions (gas prices, grocery prices, tar
 | Date | Event | Approval Impact | Confidence |
 |---|---|---|---|
 | **June 16** | This amendment issued; Israel defiance story active | Neutral | — |
-| **June 19** | Geneva MoU signing + *Regime Change* drops | Contested: Iran positive narrative vs. book negative | 0.71 |
+| **June 19** | Geneva MoU signing + *Regime Change* drops | Contested: Iran positive vs. book negative | 0.71 |
 | **June 19–26** | *Regime Change* saturation cycle — Haberman/Swan | Negative: -0.5 to -1.5 pts | 0.74 |
 | **June 19 onward** | Israel Lebanon operations (P=0.84 continue) | Negative: undercuts "deal" narrative | 0.82 |
 | **June 23** | *Regime Change* release date (confirmed) | Peak negative media cycle begins | 0.88 |
 | **June 30** | Maduro/Flores hearing, SDNY | Neutral/minor | 0.79 |
-| **July 4** | America 250 celebrations — UFC cage reportedly staying on lawn | Neutral to negative depending on visuals | 0.55 |
-| **Mid-July** | Earliest plausible retail fuel price decline if Hormuz on schedule | Potential +0.5 to +1.0 pt economic relief | 0.44 |
-| **August 1** | 60-day nuclear negotiating clock deadline approaches | Escalation risk re-emerges if talks stall | 0.67 |
+| **July 4** | America 250 — UFC cage reportedly staying on South Lawn | **Elevated risk: Vector C repeat** | 0.55 |
+| **Mid-July** | Earliest plausible retail fuel price decline | Potential +0.5 to +1.0 pt relief | 0.44 |
+| **August 1** | 60-day nuclear clock deadline; escalation risk if talks stall | Re-escalation risk | 0.67 |
+
+**July 4 tripwire note:** The UFC cage is reportedly remaining on the South Lawn through July 4 America 250 celebrations. Given the Vector C chaos inventory from June 14 — brawl, Strickland removal, FBI foiled plot, full evacuation — a second large-scale White House grounds event creates elevated probability of a repeat compound-damage cycle, this time with the press primed to look for exactly these incidents.
 
 ---
 
 ## V. ANALYST REGISTRATION
 
-> **Formally registered, June 16, 2026, 10:04 EDT:**
-> The +2 to +4 point MoU bounce projection from W24 ledger is withdrawn. The corrected model is flat to marginally negative over 30 days, with the structural floor unchanged. The UFC Freedom 250 event is classified as a durable narrative-degradation event, not a one-day cycle. The bounce hypothesis failed because: (1) 61% of Americans called the war a mistake before the deal was signed; (2) the partisan partition of beneficiary voters makes aggregate movement arithmetically near-impossible; (3) gas prices — the actual driver of disapproval — do not respond to diplomatic documents on a politically relevant timeline; (4) two compounding negative events (UFC, *Regime Change*) create net drag that consumes any residual "war over" relief.
->
-> The administration does not currently appear to understand the full damage profile of the UFC event. The dozing footage is the most significant single image to emerge from that event and will function as a durable interpretive frame for questions about presidential capacity going forward — not as a one-day story.
+> **Registered June 16, 2026, 10:04 EDT:** MoU bounce projection withdrawn. UFC event classified as durable narrative-degradation event.
 
-> **Addendum registered, June 16, 2026, 12:34 EDT:**
-> UFC Freedom 250 formally upgraded from single-event to **dual-damage compound event**. The Hokit/Michelle Obama incident is classified as a MAGA epistemic closure specimen — analytically significant not for its shock value but for what the room's divided response reveals about the boundaries of the MAGA information ecosystem. The crowd groaning in real time, at a Trump event, on Trump's birthday, with Dana White and Shane Gillis both distancing themselves at the event, is direct empirical evidence that the bubble's internal approval metrics do not map onto the actual target audience. The three-week Michelle Obama podcast context compounds the irony: she was defending MAGA voters while the ecosystem was preparing to attack her with a years-old conspiracy theory at the most visible venue available. This pattern — self-referencing content calibrated for internal tribal signals, deployed at real-world audiences who do not share the reference — is the structural failure mode of a movement approaching its electoral ceiling.
+> **Registered June 16, 2026, 12:34 EDT:** UFC Freedom 250 upgraded to dual-damage compound event. Hokit/Michelle Obama incident classified as MAGA epistemic closure specimen. Self-referencing content calibrated for internal tribal signals, deployed at real-world audiences who do not share the reference, is the structural failure mode of a movement approaching its electoral ceiling.
+
+> **Registered June 16, 2026, 12:46 EDT:** UFC Freedom 250 upgraded to **triple-damage compound event** following analyst flag of crowd brawl on South Lawn. Full chaos inventory documented: crowd fistfight, Strickland federal removal, FBI foiled attack plot (buried), weather delay and full evacuation, Kennedy Center judicial rebuke (buried), Trump family crypto conflict (partially buried). The chaos-burial dynamic is itself analytically significant: the event produced sufficient damage volume to suppress an FBI counterterrorism story. No communications operation can rebut eight simultaneous damage stories. The July 4 cage-on-lawn tripwire is now elevated to active monitoring status.
 
 ---
 
@@ -195,11 +201,10 @@ These numbers are driven by material conditions (gas prices, grocery prices, tar
 - [Israel Leverage Assessment](../middle-east/QGIA_Israel_Leverage_Assessment_2026-W24.md)
 - [Epstein/Bongino Intel Assessment](./QGIA_Epstein_Bongino_Intel_Assessment_2026-W24.md)
 - [W24 Weekly Rollup](../weekly-rollups/QGIA_Weekly_Rollup_2026-W24_June09-15.md)
-- [Integrated Term-Completion Framework](./QGIA_Trump_TermCompletion_IntegratedFramework_2026-06-16.md) — capacity signal cross-reference
+- [Integrated Term-Completion Framework](./QGIA_Trump_TermCompletion_IntegratedFramework_2026-06-16.md)
 
 ---
 
 *Generated: June 16, 2026 | OSIQP v4.2.1 | ABCP Active | Senior Analyst TS/SCI*
-*Addendum appended: June 16, 2026, 12:34 EDT*
-*Next review trigger: Regime Change media saturation assessment June 23–26; Hormuz implementation visual June 19; Israel operations June 19–20 signing window; any new polling post-MoU*
+*Final addendum: June 16, 2026, 12:46 EDT*
 *Midterm countdown: 140 days*
