@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_repo": "qgia-knowledge-library",
-  "generated_at": "2026-06-16T17:33:01.161408+00:00",
+  "generated_at": "2026-06-17T00:12:13.613675+00:00",
   "documents": [
     {
       "id": "qgia-library:01-01-core-ir-theories",
@@ -10,7 +10,7 @@
       "path": "01-theoretical-foundations/01-01-core-ir-theories.md",
       "checksum": "b65422adc2bb54d6",
       "word_count": 1903,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "1. REALISM PARADIGM",
@@ -34,7 +34,7 @@
       "path": "01-theoretical-foundations/01-02-strategic-bargaining-theory.md",
       "checksum": "fd77a01d72038476",
       "word_count": 539,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Overview",
         "Core Concepts",
@@ -50,7 +50,7 @@
       "path": "01-theoretical-foundations/01-03-deterrence-compellence-theory.md",
       "checksum": "3dcee54a69510a6a",
       "word_count": 1329,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Overview",
         "Core Concepts",
@@ -68,7 +68,7 @@
       "path": "01-theoretical-foundations/01-04-bargaining-focal-points.md",
       "checksum": "ccf9e65c1ef3d05d",
       "word_count": 2068,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Executive Summary",
         "1. Foundational Bargaining Models",
@@ -89,7 +89,7 @@
       "path": "01-theoretical-foundations/01-05-deterrence-compellence-coercion.md",
       "checksum": "2b1bc29cc3af542e",
       "word_count": 2660,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Executive Summary",
         "1. Foundational Concepts",
@@ -111,7 +111,7 @@
       "path": "02-analytical-frameworks/02-01-intelligence-cycle-methods.md",
       "checksum": "5b4e4c9db039eb1f",
       "word_count": 1837,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "1. INTELLIGENCE CYCLE OVERVIEW",
@@ -137,7 +137,7 @@
       "path": "02-analytical-frameworks/02-02-structured-analytic-techniques.md",
       "checksum": "12ea09ee84b98edd",
       "word_count": 1768,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "1. DIAGNOSTIC TECHNIQUES",
@@ -163,7 +163,7 @@
       "path": "02-analytical-frameworks/02-03-forecasting-methodologies.md",
       "checksum": "35e144335b23c184",
       "word_count": 3586,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Executive Overview",
         "I. Superforecasting Framework",
@@ -185,7 +185,7 @@
       "path": "02-analytical-frameworks/02-04-operational-doctrine-adversarial-analysis.md",
       "checksum": "9d680779ce43dc97",
       "word_count": 5470,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Preamble",
         "PART I: FOUNDATIONAL AXIOMS \u2014 THE FRACTAL LAWS OF POWER",
@@ -210,7 +210,7 @@
       "path": "02-analytical-frameworks/02-SAT-handbook.md",
       "checksum": "ac3af8f8ffb67629",
       "word_count": 10405,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Preface",
         "Table of Contents",
@@ -238,7 +238,7 @@
       "path": "03-regional-expertise/03-01-china-strategic-profile.md",
       "checksum": "cc43464856d2f655",
       "word_count": 1551,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "1. STRATEGIC OVERVIEW",
@@ -263,7 +263,7 @@
       "path": "03-regional-expertise/03-regional-threat-templates.md",
       "checksum": "e61fc98d028ab288",
       "word_count": 10390,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "Document Structure",
@@ -294,7 +294,7 @@
       "path": "06-quantitative-models/06-01-lanchester-equations.md",
       "checksum": "c50908b450190b08",
       "word_count": 1504,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "1. FOUNDATIONAL CONCEPTS",
@@ -319,7 +319,7 @@
       "path": "08-crisis-protocols/08-crisis-escalation-ladder.md",
       "checksum": "b5ff79bf11e6774c",
       "word_count": 6782,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "1. CRISIS PHASE DEFINITIONS",
@@ -349,7 +349,7 @@
       "path": "09-validation-metrics/09-confidence-calibration.md",
       "checksum": "ae60ac978e9535a9",
       "word_count": 6260,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "1. THE FOUR CONFIDENCE COMPONENTS",
@@ -377,7 +377,7 @@
       "path": "11-technology-systems/11-osiqp-architecture.md",
       "checksum": "1c8a50578f013a30",
       "word_count": 7121,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Purpose",
         "System Specifications Summary",
@@ -407,7 +407,7 @@
       "path": "regions/QGIA_Global_Monitoring_Report_2026-06-14.md",
       "checksum": "882f83f51e74ac12",
       "word_count": 3063,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "THEATER I: IRAN / MIDDLE EAST",
@@ -427,7 +427,7 @@
       "path": "regions/domestic-us/QGIA_Analyst_Notes_Gratitude_June16_2026.md",
       "checksum": "7d325dfbdcbee23c",
       "word_count": 600,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Analyst Commentary",
         "Cross-References"
@@ -441,7 +441,7 @@
       "path": "regions/domestic-us/QGIA_DomesticUS_ApprovalModel_Amendment_2026-06-16.md",
       "checksum": "ad1267dcc2729589",
       "word_count": 3012,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "AMENDMENT SUMMARY",
         "I. WHY THE BOUNCE MODEL IS WRONG \u2014 STRUCTURAL DISQUALIFIERS",
@@ -460,7 +460,7 @@
       "path": "regions/domestic-us/QGIA_DomesticUS_Approval_Ledger_2026-W24.md",
       "checksum": "765ab44594f4fc05",
       "word_count": 2996,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "I. TRUMP APPROVAL TRAJECTORY",
         "II. GENERIC BALLOT TRACKING",
@@ -483,7 +483,7 @@
       "path": "regions/domestic-us/QGIA_Epstein_Bongino_Intel_Assessment_2026-W24.md",
       "checksum": "e5fae631a175ba78",
       "word_count": 2730,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "I. THE NYT JUNE 10 BOMBSHELL \u2014 \"INSIDE THE WHITE HOUSE FREAKOUT\"",
         "II. BONGINO BEHAVIORAL MODEL \u2014 POSITIONING, NOT DEFECTION",
@@ -504,7 +504,7 @@
       "path": "regions/domestic-us/QGIA_NationalDecency_vs_Polarization_Index_2026-06-16.md",
       "checksum": "a8decd8e93af4bbb",
       "word_count": 2198,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "I. THE QUANTITATIVE BASELINE \u2014 WHAT THE DATA ACTUALLY SHOWS",
@@ -520,13 +520,32 @@
       "summary": "**Classification: PROPRIETARY | OSIQP v4.2.1**"
     },
     {
+      "id": "qgia-library:regions-domestic-us-qgia_patel_ufc_plotdisclosure_2026-06-16",
+      "title": "QGIA ASSESSMENT \u2014 PATEL UFC PLOT DISCLOSURE: INSTITUTIONAL FRICTION & OPERATIONAL DAMAGE",
+      "domain": "regional-expertise",
+      "path": "regions/domestic-us/QGIA_Patel_UFC_PlotDisclosure_2026-06-16.md",
+      "checksum": "9eb5d9924f9fdad5",
+      "word_count": 1556,
+      "last_modified": "2026-06-16T20:11:26-04:00",
+      "tags": [
+        "EXECUTIVE SUMMARY",
+        "I. WHAT HAPPENED \u2014 THE OPERATIONAL RECORD",
+        "II. THE OPERATIONAL DAMAGE ASSESSMENT",
+        "III. THE PATTERN \u2014 PATEL'S INVESTIGATION RECORD",
+        "IV. THE ANALYTICAL CONTEXT \u2014 WHY THIS MATTERS BEYOND THE INCIDENT",
+        "V. ANALYST REGISTRATION",
+        "VI. CROSS-REFERENCES"
+      ],
+      "summary": "**Classification: PROPRIETARY | OSIQP v4.2.1**"
+    },
+    {
       "id": "qgia-library:regions-domestic-us-qgia_strickland_ufc_removal_assessment_2026-06-16",
       "title": "QGIA SUPPLEMENTAL ASSESSMENT \u2014 STRICKLAND REMOVAL",
       "domain": "regional-expertise",
       "path": "regions/domestic-us/QGIA_Strickland_UFC_Removal_Assessment_2026-06-16.md",
       "checksum": "34724c79340f0793",
       "word_count": 1756,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "I. THE STRICKLAND PROFILE \u2014 WHY THIS IS NOT A SOFTIE STORY",
@@ -546,7 +565,7 @@
       "path": "regions/domestic-us/QGIA_Trump_Health_Assessment_2026-06-16.md",
       "checksum": "2964a93b9cf57053",
       "word_count": 2469,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "I. THE FABRICATED MEASUREMENTS \u2014 DOCUMENTED FALSIFICATION",
         "II. THE PHYSICIAN CREDIBILITY PROBLEM",
@@ -566,7 +585,7 @@
       "path": "regions/domestic-us/QGIA_Trump_Sports_Attendance_Pattern_2026-06-16.md",
       "checksum": "59f4e5bba0162c69",
       "word_count": 2024,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "I. THE KNICKS GAME 3 INCIDENT \u2014 FULL RECORD",
@@ -587,7 +606,7 @@
       "path": "regions/domestic-us/QGIA_Trump_TermCompletion_IntegratedFramework_2026-06-16.md",
       "checksum": "e9e9b10f5f08929b",
       "word_count": 2966,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "I. METHODOLOGICAL FOUNDATION \u2014 THE REACTIVE AGENT PERMANENT OVERRIDE",
@@ -609,7 +628,7 @@
       "path": "regions/domestic-us/QGIA_WorldCup_Hope_Paradox_2026-06-16.md",
       "checksum": "577e87d9e896fc7a",
       "word_count": 2823,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "I. THE STRUCTURAL PARADOX \u2014 SOFT POWER DECOUPLED FROM THE PRESIDENT",
@@ -630,7 +649,7 @@
       "path": "regions/domestic-us/QGIA_WorldCup_MiddleAmerica_Decency_2026-06-16.md",
       "checksum": "ef905fd09f210bb4",
       "word_count": 2062,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "I. THE EMPIRICAL RECORD \u2014 WHAT ACTUALLY HAPPENED",
@@ -649,7 +668,7 @@
       "path": "regions/middle-east/QGIA_Israel_Leverage_Assessment_2026-W24.md",
       "checksum": "fb92a94cdc7857bc",
       "word_count": 2246,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "I. THE DEPENDENCY ARCHITECTURE \u2014 NEAR-TOTAL ASYMMETRY",
         "II. THE \"THEY KNEW THE DEAL\" PRINCIPLE",
@@ -670,7 +689,7 @@
       "path": "regions/middle-east/iran/iran-war-2026/README.md",
       "checksum": "5d81ee981bb2a5e7",
       "word_count": 520,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Scope",
         "Package Contents",
@@ -691,7 +710,7 @@
       "path": "regions/middle-east/iran/iran-war-2026/actor-cards.md",
       "checksum": "a820c37b9119ccf1",
       "word_count": 959,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "IRGC-QF / IRGC High Command",
         "Supreme Leader Node",
@@ -707,7 +726,7 @@
       "path": "regions/middle-east/iran/iran-war-2026/baseline-ledger.md",
       "checksum": "9b9e5b75de43c897",
       "word_count": 1139,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Strategic War Outcomes (0\u2013180 days)",
         "Regime Trajectory Set (12 months)",
@@ -724,7 +743,7 @@
       "path": "regions/middle-east/iran/iran-war-2026/scenario-catalog.md",
       "checksum": "6f74cc97724b3611",
       "word_count": 1077,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "Tier I \u2014 Active Scenarios (P \u2265 0.25)",
         "Tier II \u2014 Elevated Risk Scenarios (P 0.10\u20130.25)",
@@ -743,7 +762,7 @@
       "path": "regions/ukraine/QGIA_Ukraine_Ledger_2026-W24.md",
       "checksum": "5f54d5e6c59232e9",
       "word_count": 1751,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "I. BATTLEFIELD STATUS \u2014 WAR DAY 1,572",
@@ -763,7 +782,7 @@
       "path": "regions/ukraine/baseline-ledger.md",
       "checksum": "60dca05a38e20ef8",
       "word_count": 1154,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "I. WAR TERMINATION SET (mutually exclusive at 12-month horizon)",
         "II. RUSSIAN FORCE TRAJECTORY (0\u20136 month window)",
@@ -783,7 +802,7 @@
       "path": "regions/weekly-rollups/QGIA_Weekly_Rollup_2026-W24_June09-15.md",
       "checksum": "93f8dc24e74f6cf1",
       "word_count": 2441,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "THEATER I: IRAN / MIDDLE EAST",
@@ -805,7 +824,7 @@
       "path": "regions/western-hemisphere/venezuela/QGIA_Venezuela_Ledger_2026-W24.md",
       "checksum": "a9289894a41a1a4f",
       "word_count": 965,
-      "last_modified": "2026-06-16T13:32:00-04:00",
+      "last_modified": "2026-06-16T20:11:26-04:00",
       "tags": [
         "EXECUTIVE SUMMARY",
         "I. POLITICAL STATUS \u2014 VENEZUELA (June 15, 2026)",
