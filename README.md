@@ -5,7 +5,7 @@
 [![Classification: PROPRIETARY](https://img.shields.io/badge/Classification-PROPRIETARY-red.svg)]()
 [![Version: 1.1.0](https://img.shields.io/badge/Version-1.1.0-blue.svg)]()
 [![Framework: QGIA v4.0.0 | OSIQP v4.2.1](https://img.shields.io/badge/Framework-QGIA%20v4.0.0%20%7C%20OSIQP%20v4.2.1-green.svg)]()
-[![Last Updated: 2026-06-15](https://img.shields.io/badge/Last%20Updated-2026--06--15-brightgreen.svg)]()
+[![Last Updated: 2026-06-16](https://img.shields.io/badge/Last%20Updated-2026--06--16-brightgreen.svg)]()
 
 ## Overview
 
@@ -25,14 +25,14 @@ than as an independently verified external fetch.
 
 ## Active Theater Index
 
-*Last synchronized: 2026-06-15 | WATCHCON II across all theaters*
+*Last synchronized: 2026-06-16 | WATCHCON II across all theaters*
 
 | Theater | Operation | Status | Day | Next Trigger | Last Updated | Ledger |
 |---|---|---|---:|---|---|---|
 | **Iran / Middle East** | Op Epic Fury | Active — MoU unsigned | 107 | Geneva signing June 19 | 2026-06-15 | [baseline-ledger](regions/middle-east/iran/iran-war-2026/baseline-ledger.md) |
 | **Ukraine / Eastern Europe** | — | Active — War Day 1,572 | 1572 | G7 Évian June 15–17; NATO Ankara July | 2026-06-15 | [Ukraine ledger](regions/ukraine/QGIA_Ukraine_Ledger_2026-W24.md) |
 | **Venezuela / W. Hemisphere** | Op Absolute Resolve | Stabilized — legal track | 163 | SDNY hearing June 30 | 2026-06-15 | [Venezuela ledger](regions/western-hemisphere/venezuela/QGIA_Venezuela_Ledger_2026-W24.md) |
-| **US Domestic** | — | Monitoring | — | Midterms Nov 3, 2026 | 2026-06-15 | *Pending: regions/domestic-us/* |
+| **US Domestic** | — | Monitoring | — | Midterms Nov 3, 2026 | 2026-06-16 | [approval ledger](regions/domestic-us/QGIA_DomesticUS_Approval_Ledger_2026-W24.md) |
 
 ---
 
@@ -53,13 +53,14 @@ qgia-knowledge-library/
 ├── references/                       # Master bibliography and external sources
 └── regions/                          # Active theater ledgers and assessments
     ├── QGIA_Global_Monitoring_Report_2026-06-14.md
+    ├── domestic-us/                   # Domestic US monitoring and approval ledgers
     ├── middle-east/iran/iran-war-2026/  # Op Epic Fury — Day 107
     ├── ukraine/                        # War Day 1,572
     ├── western-hemisphere/venezuela/   # Op Absolute Resolve — D+163
     └── weekly-rollups/                 # W24 June 9–15 rollup
 ```
 
-Planned additions: `07-historical-databases`, `10-collaboration-networks`, `12-ethics-governance`, `regions/domestic-us/` are tracked in `/references/missing-documents.md`.
+Planned additions: `07-historical-databases`, `10-collaboration-networks`, and `12-ethics-governance` are tracked in `/references/missing-documents.md`.
 
 ## Core Knowledge Domains
 
@@ -193,7 +194,7 @@ prior, calibration, and resolution-policy surfaces.
 
 ## Document Status
 
-### Current Holdings (as of 2026-06-15)
+### Current Holdings (as of 2026-06-16)
 
 | Document | Path | Status |
 |---|---|---|
@@ -201,18 +202,18 @@ prior, calibration, and resolution-policy surfaces.
 | Global Monitoring Report | `regions/QGIA_Global_Monitoring_Report_2026-06-14.md` | ✅ Current (June 14) |
 | Weekly Rollup W24 | `regions/weekly-rollups/QGIA_Weekly_Rollup_2026-W24_June09-15.md` | ✅ Current |
 | Ukraine Ledger W24 | `regions/ukraine/QGIA_Ukraine_Ledger_2026-W24.md` | ✅ Current |
+| Ukraine Baseline Ledger | `regions/ukraine/baseline-ledger.md` | ✅ Current |
 | Iran Baseline Ledger | `regions/middle-east/iran/iran-war-2026/baseline-ledger.md` | ✅ Current |
 | Iran Actor Cards | `regions/middle-east/iran/iran-war-2026/actor-cards.md` | ✅ Current |
 | Iran Scenario Catalog | `regions/middle-east/iran/iran-war-2026/scenario-catalog.md` | ✅ Current (MoU-era) |
 | Iran Theater README | `regions/middle-east/iran/iran-war-2026/README.md` | ✅ Current |
 | Venezuela Ledger W24 | `regions/western-hemisphere/venezuela/QGIA_Venezuela_Ledger_2026-W24.md` | ✅ Current |
+| Domestic US Approval Ledger W24 | `regions/domestic-us/QGIA_DomesticUS_Approval_Ledger_2026-W24.md` | ✅ Current |
 
 ### Known Gaps (Pending Creation)
 
 | Document | Priority | Notes |
 |---|---|---|
-| `regions/domestic-us/` directory + approval ledger | High | Theater IV has zero repo representation |
-| `regions/ukraine/baseline-ledger.md` | High | Structured probability ledger mirroring Iran format |
 | `regions/middle-east/iran/iran-war-2026/mou-negotiation-log.md` | Medium | 14-point framework, fault lines, 60-day follow-on calendar |
 | `07-historical-databases/` | Low | Tracked in `/references/missing-documents.md` |
 | `10-collaboration-networks/` | Low | Tracked in `/references/missing-documents.md` |

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -63,6 +64,47 @@ class KnowledgeContractTests(unittest.TestCase):
         self.assertEqual(
             readme["id"],
             "qgia-library:regions-middle-east-iran-iran-war-2026-readme",
+        )
+
+    def test_readme_declared_domain_structure_matches_tree(self) -> None:
+        failures = knowledge_contract.validate_declared_domain_structure(REPO_ROOT)
+        self.assertEqual(failures, [])
+        declared = knowledge_contract.declared_domain_structure_paths(REPO_ROOT)
+        self.assertIn("01-theoretical-foundations", declared)
+        self.assertIn("regions/domestic-us", declared)
+
+    def test_readme_declared_domain_structure_reports_drift(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            (root / "01-theoretical-foundations").mkdir()
+            (root / "regions" / "domestic-us").mkdir(parents=True)
+            (root / "README.md").write_text(
+                "\n".join(
+                    [
+                        "# Sample",
+                        "",
+                        "## Repository Structure",
+                        "",
+                        "```",
+                        "qgia-knowledge-library/",
+                        "├── 01-theoretical-foundations/",
+                        "└── regions/",
+                        "    └── middle-east/",
+                        "```",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            failures = knowledge_contract.validate_declared_domain_structure(root)
+
+        self.assertEqual(
+            failures,
+            [
+                "README Repository Structure is missing live QGIA domain directories: regions/domestic-us",
+                "README Repository Structure declares QGIA domain directories absent from the corpus tree: regions/middle-east",
+            ],
         )
 
     def test_bootstrap_evidence_ledger_allows_empty_history(self) -> None:

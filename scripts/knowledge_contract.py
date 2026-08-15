@@ -34,6 +34,11 @@ SKIP_DIR_NAMES = {"references", "policies", "tests"}
 SKIP_FILENAMES = {"README.md"}
 SUMMARY_METADATA_LINE = re.compile(r"^\*\*[^*]+\*\*:")
 SPECIAL_CONTENT_DIRS = {"regions"}
+DECLARED_STRUCTURE_ROOT_DIRS = {"regions"}
+README_STRUCTURE_HEADING = "## Repository Structure"
+README_TREE_ENTRY = re.compile(
+    r"^(?P<indent>[ │]*)(?:[├└]── )(?P<entry>[^#]+?)(?:\s+#.*)?$"
+)
 REGION_DOCUMENT_DOMAINS = {
     "README.md": "theater_readme",
     "baseline-ledger.md": "ledger",
@@ -71,6 +76,105 @@ def iter_markdown_documents(root: Path = REPO_ROOT) -> Iterable[Path]:
             if md_file.name in SKIP_FILENAMES and directory.name not in SPECIAL_CONTENT_DIRS:
                 continue
             yield md_file
+
+
+def readme_repository_structure_paths(root: Path = REPO_ROOT) -> List[str]:
+    readme = root / "README.md"
+    lines = readme.read_text(encoding="utf-8").splitlines()
+    in_section = False
+    in_block = False
+    paths: List[str] = []
+    stack: List[str] = []
+
+    for line in lines:
+        if line == README_STRUCTURE_HEADING:
+            in_section = True
+            continue
+        if in_section and line.startswith("## ") and line != README_STRUCTURE_HEADING:
+            break
+        if not in_section:
+            continue
+        if line.strip() == "```":
+            if in_block:
+                break
+            in_block = True
+            continue
+        if not in_block:
+            continue
+
+        match = README_TREE_ENTRY.match(line)
+        if not match:
+            continue
+        entry = match.group("entry").strip()
+        if not entry.endswith("/"):
+            continue
+        indent = match.group("indent").replace("│", " ")
+        level = len(indent.expandtabs(4)) // 4
+        parts = [part for part in entry.rstrip("/").split("/") if part]
+        stack = stack[:level]
+        path_parts = stack + parts
+        paths.append("/".join(path_parts))
+        stack = path_parts
+
+    return paths
+
+
+def normalize_domain_structure_paths(paths: Iterable[str]) -> List[str]:
+    normalized = set()
+    for path in paths:
+        parts = [part for part in path.split("/") if part]
+        if not parts:
+            continue
+        top_level = parts[0]
+        if CONTENT_DIR_PATTERN.match(top_level) or top_level in DECLARED_STRUCTURE_ROOT_DIRS:
+            normalized.add(top_level)
+        if top_level == "regions" and len(parts) > 1:
+            normalized.add("regions/%s" % parts[1])
+    return sorted(normalized)
+
+
+def declared_domain_structure_paths(root: Path = REPO_ROOT) -> List[str]:
+    return normalize_domain_structure_paths(readme_repository_structure_paths(root))
+
+
+def actual_domain_structure_paths(root: Path = REPO_ROOT) -> List[str]:
+    paths: List[str] = []
+    for entry in sorted(root.iterdir(), key=lambda item: item.name):
+        if not entry.is_dir():
+            continue
+        if CONTENT_DIR_PATTERN.match(entry.name) or entry.name in DECLARED_STRUCTURE_ROOT_DIRS:
+            paths.append(entry.name)
+
+    regions_dir = root / "regions"
+    if regions_dir.is_dir():
+        for entry in sorted(regions_dir.iterdir(), key=lambda item: item.name):
+            if entry.is_dir():
+                paths.append("regions/%s" % entry.name)
+
+    return paths
+
+
+def validate_declared_domain_structure(root: Path = REPO_ROOT) -> List[str]:
+    declared = set(declared_domain_structure_paths(root))
+    actual = set(actual_domain_structure_paths(root))
+    failures: List[str] = []
+
+    if not declared:
+        return ["README Repository Structure does not declare any QGIA domain directories"]
+
+    missing_from_readme = sorted(actual - declared)
+    missing_from_tree = sorted(declared - actual)
+    if missing_from_readme:
+        failures.append(
+            "README Repository Structure is missing live QGIA domain directories: %s"
+            % ", ".join(missing_from_readme)
+        )
+    if missing_from_tree:
+        failures.append(
+            "README Repository Structure declares QGIA domain directories absent from the corpus tree: %s"
+            % ", ".join(missing_from_tree)
+        )
+    return failures
 
 
 def domain_from_dir_name(directory_name: str) -> str:
@@ -266,6 +370,8 @@ def validate_repo_contract(root: Path = REPO_ROOT) -> List[str]:
 
     if failures:
         return failures
+
+    failures.extend(validate_declared_domain_structure(root))
 
     constellation = load_json(root / ".aurora" / "constellation.json")
     node = constellation.get("node", {})
