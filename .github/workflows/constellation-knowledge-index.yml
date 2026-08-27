@@ -1,5 +1,13 @@
 name: "QGIA Knowledge Index Publisher"
 
+# CONNECTIVITY PASS 2026-08-19:
+#   The hub-publish step was gated on `env.HAS_TOKEN == 'true'` where HAS_TOKEN
+#   was declared in that same step's `env:` block. GitHub evaluates a step's
+#   `if:` BEFORE that step's own `env:` is materialised, so the expression read
+#   an empty string, the condition was never true, and this repository has never
+#   published qgia.knowledge.updated to the constellation hub. HAS_TOKEN is now
+#   declared at job level, where the step `if:` can see it.
+
 on:
   workflow_dispatch:
   push:
@@ -23,6 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      HAS_TOKEN: ${{ secrets.CONSTELLATION_TOKEN != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
@@ -51,11 +60,13 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: auto-update knowledge index [skip ci]"
           git push
 
+      - name: Warn when the hub link is unconfigured
+        if: success() && env.HAS_TOKEN != 'true'
+        run: echo "::warning::CONSTELLATION_TOKEN is not set — knowledge index updated locally but NOT published to the constellation hub."
+
       - name: Publish event to Constellation Hub
         if: success() && env.HAS_TOKEN == 'true'
-        env:
-          HAS_TOKEN: ${{ secrets.CONSTELLATION_TOKEN != '' }}
-        uses: peter-evans/repository-dispatch@v3.0.0
+        uses: peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697  # v4.0.1
         with:
           token: ${{ secrets.CONSTELLATION_TOKEN }}
           repository: AUo959/aurora-cloudbank-symbolic
@@ -67,6 +78,11 @@ jobs:
               "event_type": "qgia.knowledge.updated",
               "correlation_id": "${{ github.run_id }}-${{ github.run_number }}",
               "timestamp": "${{ github.event.head_commit.timestamp }}",
+              "hop": 0,
+              "provenance": {
+                "charter": "Picard_Delta_3",
+                "l3_compliance": true
+              },
               "payload": {
                 "commit_sha": "${{ github.sha }}",
                 "index_url": "https://raw.githubusercontent.com/AUo959/qgia-knowledge-library/main/.aurora/knowledge-index.json"
