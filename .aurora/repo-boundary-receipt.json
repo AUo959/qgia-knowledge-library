@@ -7,21 +7,21 @@
     "designation": "QGIA-CORPUS",
     "symbolic_tag": "s.tag::qgia.corpus"
   },
-  "canonical_local_path": "/Users/travisstreets/Library/Mobile Documents/com~apple~CloudDocs/Aurora_ORIONCORE_Directory_Main/qgia-knowledge-library-main",
+  "canonical_local_path": "~/Library/Mobile Documents/com~apple~CloudDocs/Aurora_ORIONCORE_Directory_Main/qgia-knowledge-library-main",
   "git_boundary": {
     "status": "confirmed_separate_nested_repo",
-    "working_tree_path": "/Users/travisstreets/Library/Mobile Documents/com~apple~CloudDocs/Aurora_ORIONCORE_Directory_Main/qgia-knowledge-library-main",
+    "working_tree_path": "~/Library/Mobile Documents/com~apple~CloudDocs/Aurora_ORIONCORE_Directory_Main/qgia-knowledge-library-main",
     "git_dir": ".git",
     "superproject_working_tree": null,
     "observed_worktrees": [
       {
-        "path": "/Users/travisstreets/Library/Mobile Documents/com~apple~CloudDocs/Aurora_ORIONCORE_Directory_Main/qgia-knowledge-library-main",
+        "path": "~/Library/Mobile Documents/com~apple~CloudDocs/Aurora_ORIONCORE_Directory_Main/qgia-knowledge-library-main",
         "head": "fb4f9bfaacb549b839456b860358e621a01f3c85",
         "branch": "main",
         "role": "canonical-branch-attached-worktree"
       },
       {
-        "path": "/Users/travisstreets/.codex/worktrees/ea69/qgia-knowledge-library-main",
+        "path": "~/.codex/worktrees/ea69/qgia-knowledge-library-main",
         "head": "fb4f9bfaacb549b839456b860358e621a01f3c85",
         "branch": null,
         "role": "detached-codex-linked-worktree"
@@ -54,7 +54,7 @@
     ]
   },
   "aurora_root_control_plane_relationship": {
-    "root_control_plane_path": "/Users/travisstreets/Library/Mobile Documents/com~apple~CloudDocs/Aurora_ORIONCORE_Directory_Main",
+    "root_control_plane_path": "~/Library/Mobile Documents/com~apple~CloudDocs/Aurora_ORIONCORE_Directory_Main",
     "workspace_manifest_entry": "catalog/workspace_manifest.yaml:qgia-knowledge-library-main",
     "repo_registry_entry": "catalog/repo_registry.yaml:qgia-knowledge-library-main",
     "relationship": "This repository is a separate nested repo recorded by the Aurora root control plane at path qgia-knowledge-library-main. The root control plane owns workspace topology and cross-repo contract packaging, while this repo owns the QGIA-CORPUS curated knowledge corpus and its repo-local evidence/outcome bootstrap artifacts."
